@@ -8,6 +8,11 @@
     "debug-ide": "./bin/debug-ide",
     "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
   },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/learn-co-curriculum/introduction-to-react-assessment.git"
@@ -31,12 +36,12 @@
     "jsdom": "^9.4.1",
     "mocha": "^5.2.0",
     "mocha-multi": "^1.0.1",
-    "sinon": "^1.17.6"
+    "sinon": "^6.1.4"
   },
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "jsdom": "^9.9.1",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   }
 }
